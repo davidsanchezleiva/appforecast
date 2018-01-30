@@ -124,7 +124,7 @@
                     <div class="collapsible-header active"><i class="material-icons">filter_drama</i>The Weather</div>
                     <div class="collapsible-body">
                         <div class="center">
-                            <h1 class="text-long-shadow">Enter a city</h1>
+                            <h2 class="text-long-shadow">App Forecast</h2>
                          </div>
                     </div>
                   </li>
@@ -257,7 +257,7 @@
 
     <div class="footer-copyright">
        <div class="container">
-           Copyright &copy; 2018. Powered by <a href="http://openweathermap.org/" rel="nofollow" target="_blank">OpenWeatherMap</a>
+           Copyright &copy; 2018. Powered by David Sanchez Leiva.
        </div>
     </div>
 	
