@@ -1,0 +1,165 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ 
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+	background:url("../images/app-bg.jpg") no-repeat center center;
+	background-size:cover;
+  }
+  
+main {
+    flex: 1 0 auto;
+  }
+
+nav ul a,
+nav .brand-logo {
+  color: #f5f5f5;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #f5f5f5;
+}
+
+.parallax-container {
+  min-height: 200px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+
+section, .section {padding-top: 6rem; padding-bottom: 5rem;}
+
+nav, header {
+    color: #fff;
+    background-color: #009688;
+    width: 100%;
+}
+
+footer.page-footer {
+  margin: 0;
+  padding-top: 0;
+   padding-bottom: 0;
+}
+
+.footer-copyright div {color: white; font-size:17px;}
+
+.footer-copyright a, .footer-copyright a:visited {color:#f5f5f5; font-size:17px; margin-left: 2px;}
+
+form#formlg {
+    margin:0;
+    padding:0;
+}
+
+form#formlg li {
+    height: 64px;
+    margin-right: 16px;
+}
+
+form#formlg .input-field input[type=search] {
+    height: inherit;
+    padding-left: 4rem;
+    padding-right: 3rem;
+    width: calc(100% - 7rem);
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom:0;
+    font-size:16px;
+}
+
+form#formlg .input-field label {
+    top: -10px;
+    left: 0;
+}
+
+form#formlg .input-field i {
+    font-size:31px;
+}
+
+form#formlg button > i {line-height: 42px;}
+
+header nav .brand-logo {
+  position: static;
+  color: #fff;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 0;
+  float: left;
+}
+
+header nav .nav-wrapper ul {margin-left: 30px;}
+
+.text-long-shadow {
+    text-shadow: #1d7d74 1px 1px,#1d7d74 2px 2px,#1d7d74 3px 3px,#1d7d74 4px 4px,#1d7d74 5px 5px,#1d7d74 6px 6px,#1d7d74 7px 7px,#1d7d74 8px 8px,#1d7d74 9px 9px,#1d7d74 10px 10px,#1d7d74 11px 11px,#1d7d74 12px 12px,#1d7d74 13px 13px,#1d7d74 14px 14px,#1d7d74 15px 15px,#1d7d74 16px 16px,#1d7d74 17px 17px,#1d7d74 18px 18px,#1d7d74 19px 19px,#1d7d74 20px 20px,#1d7d74 21px 21px,#208b81 22px 22px,#208b81 23px 23px,#208b81 24px 24px,#208b81 25px 25px,#208b81 26px 26px,#208b81 27px 27px,#208b81 28px 28px,#208b81 29px 29px,#208b81 30px 30px,#26a69a 31px 31px,#26a69a 32px 32px,#26a69a 33px 33px,#26a69a 34px 34px,#26a69a 35px 35px,#26a69a 36px 36px,#26a69a 37px 37px;
+    background-color: #26a69a;
+    width: 100%;
+    font-size: 10rem;
+    color: #fff !important;
+    text-align: center;
+    padding: 20px 0 !important;
+}
+
+.collapsible-body {background: #26a69a}
+
+.collapsible-header {
+    font-size:22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.2
+}
+
+#the-w {padding: 8px;}
+
+#the-w p {margin-top:0; color: white; font-size:16px;}
+
+form#fav-form, .forget {
+    margin:40px 0 0;
+    display: block;
+}
+
+#map {width: 100%; height: 360px !important;}
+
+
+ header, main, footer {
+      padding-left: 300px;
+    }
+
+
+/* Responsive: */
+@media only screen and (max-width : 992px) {
+    
+ header nav .brand-logo {
+  /*position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 0;
+  float: none;*/
+}
+
+header, main, footer {
+  padding-left: 0;
+}
+  
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
